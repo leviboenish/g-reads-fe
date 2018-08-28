@@ -1,3 +1,9 @@
+
+
+
+/************************************
+  header style
+  ***********************************/
 #logo {
   width: 65px;
   margin: 10px;
@@ -17,4 +23,27 @@
 
 header{
   border-bottom: solid 1px black;
+}
+
+/************************************
+  top nav styles
+  ***********************************/
+
+.nav-item {
+  border: 1px solid black;
+  width: 175px;
+  list-style-type: none;
+  display: inline-block;
+  height: 60px;
+  margin: 5px;
+}
+
+.nav-title {
+  margin-top: -45px;
+  margin-left: 75px;
+  color: #f79020;
+}
+
+.nav-img {
+  margin: 5px;
 }
