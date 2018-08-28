@@ -1,9 +1,20 @@
 #logo {
   width: 65px;
   margin: 10px;
+  padding-left: 20px;
 }
 
 #logo-text {
-margin-top: -60px;
-margin-left: 100px;
+  margin-top: -80px;
+  margin-left: 100px;
+  color: #f79020;
+  font-size: 3rem;
+}
+
+#bracket {
+  color: black;
+}
+
+header{
+  border-bottom: solid 1px black;
 }
