@@ -7,18 +7,17 @@ if(props.books !== null){
   let bookArr = props.books.data.map((item, i) => {
     console.log(item)
     return (
-      <li key={i}>
-        <img src={item.BookCoverURL} />
-        <h4>Title: {item.BookTitle}</h4>
-        <h5>Genre: {item.BookGenre}</h5>
-        <p>{item.BookDescription}</p>
+      <li className='book' key={i}>
+        <img className='book-cover' src={item.BookCoverURL} />
+        <h4  className='book-title'>Title: {item.BookTitle}</h4>
+        <h5  className='book-genre'>Genre: {item.BookGenre}</h5>
+        <p className='book-description'>{item.BookDescription}</p>
       </li>
     )
   })
 
   return (
     <section>
-      <h2>Books</h2>
       <ul>
         {bookArr}
       </ul>
